@@ -22,11 +22,6 @@ a[class*="nav-item"]:hover{
 
 .social_logo{
   width: 100%;
-  margin: 0;
-}
-
-#social{
-  margin-bottom: 15px;
 }
 
 .principal{
@@ -39,13 +34,6 @@ textarea{
   resize: none;
 }
 
-.articulo{
-  margin-bottom: 15px;
-}
-
-article{
-  margin: 15px;
-}
 
 @media (max-width: 765px) {
   .columna-derecha{
