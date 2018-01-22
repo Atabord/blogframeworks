@@ -1,0 +1,54 @@
+body{
+  background-color: #7a7a7a;
+}
+
+header{
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 15px 15px 0 0;
+}
+
+nav{
+  border-radius: 0 0 15px 15px;
+}
+
+a[class*="nav-item"]:hover{
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+#logo{
+  height: 200px;
+  margin-bottom: 15px;
+}
+
+.social_logo{
+  width: 100%;
+  margin: 0;
+}
+
+#social{
+  margin-bottom: 15px;
+}
+
+.principal{
+  background-color: #b0b0b0;
+  border-radius: 15px ;
+  margin-top: 2vh;
+}
+
+textarea{
+  resize: none;
+}
+
+.articulo{
+  margin-bottom: 15px;
+}
+
+article{
+  margin: 15px;
+}
+
+@media (max-width: 765px) {
+  .columna-derecha{
+    display: none;
+  }
+}
