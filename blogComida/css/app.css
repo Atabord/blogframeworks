@@ -64,6 +64,14 @@ div[class*="callout"]{
   margin: 2% 8% 2% 8%;
 }
 
+.usuario{
+  width: 50px;
+}
+
+article{
+  border-bottom: 1px solid white;
+}
+
 @media (max-width:640) {
   header div{
     border: none;
