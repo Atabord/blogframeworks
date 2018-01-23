@@ -1,6 +1,7 @@
 body{
 background: url("../img/fondo-comida.jpg");
 background-repeat: no-repeat;
+background-attachment: fixed;
 }
 .contenedor{
  background-color: rgba(69, 124, 161, 0.8);
@@ -19,6 +20,8 @@ header div{
 aside{
   border-right: 1px solid white;
   padding: 15px;
+  margin-left: 10px;
+  margin-right: -10px;
 }
 
 .activo{
@@ -28,6 +31,37 @@ aside{
 
 .mb-15{
   margin-bottom: 15px;
+}
+
+.historial a{
+  color: #ffae00 !important;
+}
+
+.historial a:hover{
+  color: white !important;
+  text-decoration: underline;
+}
+
+.text-white{
+  color: white;
+}
+
+textarea{
+  resize: none;
+  width: 98%;
+}
+
+.fecha{
+  color: #ffae00;
+}
+
+div[class*="callout"]{
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.imagen-principal{
+  width: 80%;
+  margin: 2% 8% 2% 8%;
 }
 
 @media (max-width:640) {
