@@ -16,3 +16,17 @@ body{
 .img-social{
   width: 50px;
 }
+
+.imagen-principal{
+  width: 100%;
+}
+
+.img-article{
+  width: 200px;
+  float: left;
+  margin: 0 15px 15px 0;
+}
+
+.titulo{
+  display: inline-block;
+}
